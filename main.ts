@@ -1,12 +1,12 @@
+grove.onGesture(GroveGesture.Down, function () {
+    basic.showNumber(4)
+    radio.sendNumber(4)
+})
 grove.onGesture(GroveGesture.Right, function () {
     basic.showNumber(2)
     radio.sendNumber(2)
 })
-grove.onGesture(GroveGesture.Backward, function () {
-    basic.showNumber(4)
-    radio.sendNumber(4)
-})
-grove.onGesture(GroveGesture.Forward, function () {
+grove.onGesture(GroveGesture.Up, function () {
     basic.showNumber(3)
     radio.sendNumber(3)
 })
